@@ -1,0 +1,10 @@
+language: android android:
+  components:
+    # Update Android SDK Tools
+    - tools
+    - build-tools-24.0.3
+
+    - android-24
+
+script:
+    - chmod +x ./gradlew
